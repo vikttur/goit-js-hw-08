@@ -1,4 +1,3 @@
-// Add imports above this line
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 import { galleryItems } from './gallery-items';
@@ -35,8 +34,5 @@ const instanceLightBox = new SimpleLightbox('a', {
 	captionsData: 'alt',
 	captionsDelay: 250,
 });
-
-
-// Change code below this line
 
 console.log(galleryItems);
