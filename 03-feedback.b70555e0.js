@@ -1,2 +1,0 @@
-!function(){var e=document.querySelector("js-feedback-form"),t=document.querySelector("js-feedback-form textarea");console.log(555),e.addEventListener("submit",(function(e){e.preventDefault(),e.currentTarget.reset(),localStorage.removeItem("feedback-form-state")})),t.addEventListener("input",(function(e){var t=e.currentTarget.value;localStorage.setItem("feedback-form-state",t)}))}();
-//# sourceMappingURL=03-feedback.b70555e0.js.map
