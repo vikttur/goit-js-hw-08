@@ -21,7 +21,6 @@ function setCurrentTime() {
 	player.setCurrentTime(localStorage.getItem(TIME_PLAYER));
 };
 
-
 player.on('play', function() {
 	console.log('played the video!');
 });
